@@ -1,6 +1,6 @@
 const test=require('node:test'), assert=require('node:assert'), fs=require('node:fs');
 const {serve, connect, sync, desync, objToString, stringToObj, partFilter, objValueFrom, setConsistency}=require('.');
-
+//random comment to test committing
 (async function(){
   let slash=process.platform=="win32"?"\\":"/", serverLocation="ws://localhost:8009"
   let log=(text)=>console.log('\x1b[1m\x1b[33m'+text+'\x1b[0m')
